@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="recipeInfoCell" rowHeight="273" id="9xB-Lw-Ljb" customClass="RecipeInfoTableViewCell" customModule="MyKitchenRecipes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="273"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9xB-Lw-Ljb" id="tA9-sF-uYT">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="273"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Recipe Name" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIb-US-av2">
+                        <rect key="frame" x="20" y="166" width="335" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="335" id="O5L-nD-199"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prep Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRZ-6f-2hp">
+                        <rect key="frame" x="10" y="247" width="81" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="hsl-t2-Wr0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cook Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCN-yn-9kb">
+                        <rect key="frame" x="146" y="247" width="83" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="IPi-Kb-Tjc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Serving Size" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ono-57-NgQ">
+                        <rect key="frame" x="266" y="247" width="99" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="E3P-Yz-4Ll"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prep Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMN-r5-Lap">
+                        <rect key="frame" x="10" y="221" width="81" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cook Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhz-7T-UJp">
+                        <rect key="frame" x="145" y="221.5" width="85.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vMG-i3-Ref">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="0Ta-PQ-GiP"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Serving Size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVr-Mg-OkM">
+                        <rect key="frame" x="266" y="221" width="99" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KIb-US-av2" firstAttribute="leading" secondItem="tA9-sF-uYT" secondAttribute="leading" constant="20" id="6TG-D8-gAN"/>
+                    <constraint firstItem="vMG-i3-Ref" firstAttribute="top" secondItem="tA9-sF-uYT" secondAttribute="top" id="AL9-gL-t2B"/>
+                    <constraint firstItem="oCN-yn-9kb" firstAttribute="bottom" secondItem="tA9-sF-uYT" secondAttribute="bottomMargin" constant="5" id="CUO-vt-7pX"/>
+                    <constraint firstItem="Ono-57-NgQ" firstAttribute="bottom" secondItem="tA9-sF-uYT" secondAttribute="bottomMargin" constant="5" id="DQW-CR-6C4"/>
+                    <constraint firstItem="rhz-7T-UJp" firstAttribute="centerX" secondItem="tA9-sF-uYT" secondAttribute="centerX" id="I1v-MX-Ici"/>
+                    <constraint firstItem="oCN-yn-9kb" firstAttribute="centerX" secondItem="tA9-sF-uYT" secondAttribute="centerX" id="Jww-12-fjH"/>
+                    <constraint firstItem="WMN-r5-Lap" firstAttribute="leading" secondItem="tA9-sF-uYT" secondAttribute="leading" constant="10" id="OEH-9e-ISR"/>
+                    <constraint firstItem="DRZ-6f-2hp" firstAttribute="bottom" secondItem="tA9-sF-uYT" secondAttribute="bottomMargin" constant="5" id="Utu-Nu-7Kk"/>
+                    <constraint firstItem="DRZ-6f-2hp" firstAttribute="top" secondItem="WMN-r5-Lap" secondAttribute="bottom" constant="5" id="W6A-aW-C2a"/>
+                    <constraint firstItem="DRZ-6f-2hp" firstAttribute="centerX" secondItem="WMN-r5-Lap" secondAttribute="centerX" id="YUJ-xu-AxZ"/>
+                    <constraint firstItem="oCN-yn-9kb" firstAttribute="centerX" secondItem="rhz-7T-UJp" secondAttribute="centerX" id="ZnS-Bh-IBR"/>
+                    <constraint firstItem="oCN-yn-9kb" firstAttribute="top" secondItem="rhz-7T-UJp" secondAttribute="bottom" constant="5" id="c5J-j4-Yhg"/>
+                    <constraint firstItem="rhz-7T-UJp" firstAttribute="top" relation="greaterThanOrEqual" secondItem="KIb-US-av2" secondAttribute="bottom" constant="5" id="cv3-ua-Exb"/>
+                    <constraint firstItem="WMN-r5-Lap" firstAttribute="top" relation="greaterThanOrEqual" secondItem="KIb-US-av2" secondAttribute="bottom" constant="5" id="d1A-vL-kGD"/>
+                    <constraint firstItem="vMG-i3-Ref" firstAttribute="leading" secondItem="tA9-sF-uYT" secondAttribute="leading" id="epn-t3-rEa"/>
+                    <constraint firstAttribute="trailing" secondItem="Ono-57-NgQ" secondAttribute="trailing" constant="10" id="iAa-wp-scu"/>
+                    <constraint firstAttribute="trailing" secondItem="KIb-US-av2" secondAttribute="trailing" constant="20" id="ivw-B5-G7h"/>
+                    <constraint firstItem="Ono-57-NgQ" firstAttribute="top" secondItem="xVr-Mg-OkM" secondAttribute="bottom" constant="5" id="lJh-q7-HGe"/>
+                    <constraint firstItem="KIb-US-av2" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vMG-i3-Ref" secondAttribute="bottom" constant="10" id="lrN-Pa-Xhp"/>
+                    <constraint firstItem="Ono-57-NgQ" firstAttribute="centerX" secondItem="xVr-Mg-OkM" secondAttribute="centerX" id="nTb-o2-9uD"/>
+                    <constraint firstItem="xVr-Mg-OkM" firstAttribute="top" relation="greaterThanOrEqual" secondItem="KIb-US-av2" secondAttribute="bottom" constant="5" id="tUQ-UD-jZT"/>
+                    <constraint firstAttribute="trailing" secondItem="xVr-Mg-OkM" secondAttribute="trailing" constant="10" id="tbl-UA-fWX"/>
+                    <constraint firstAttribute="trailing" secondItem="vMG-i3-Ref" secondAttribute="trailing" id="u4a-0L-GFK"/>
+                    <constraint firstItem="DRZ-6f-2hp" firstAttribute="leading" secondItem="tA9-sF-uYT" secondAttribute="leading" constant="10" id="yQM-3u-CKS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cookingInMinutes" destination="oCN-yn-9kb" id="wFb-DY-iZY"/>
+                <outlet property="preparationInMinutes" destination="DRZ-6f-2hp" id="UPI-KD-h2k"/>
+                <outlet property="recipeImageView" destination="vMG-i3-Ref" id="ekN-vh-0xG"/>
+                <outlet property="recipeName" destination="KIb-US-av2" id="2bz-W6-4jY"/>
+                <outlet property="servings" destination="Ono-57-NgQ" id="lOr-v0-vSq"/>
+            </connections>
+            <point key="canvasLocation" x="180.43478260869566" y="124.88839285714285"/>
+        </tableViewCell>
+    </objects>
+</document>
