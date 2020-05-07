@@ -11,12 +11,8 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What you need to have before being able to use this project.
-
-* [Python 2.7](https://www.python.org)
-* [Flask](http://flask.pocoo.org)
-* [Virtualenv](https://virtualenv.pypa.io/)
-* [Virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/)
-* [MySQL](https://www.mysql.com)
+* [Xcode](https://developer.apple.com/xcode/)
+* [Spoonacular API Key](https://spoonacular.com/food-api)
 
 ### Installing
 
